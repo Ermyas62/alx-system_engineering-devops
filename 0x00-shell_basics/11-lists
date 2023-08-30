@@ -1,2 +1,2 @@
-11-lists
+#!/bin/bash
 ls -al . ../boot
