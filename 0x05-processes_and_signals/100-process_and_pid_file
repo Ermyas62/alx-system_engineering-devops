@@ -13,7 +13,7 @@ echo "$!" > "$file"
 
 trap 'echo "I hate the kill command"; rm "$file"; exit' SIGTERM SIGQUIT
 
-trap "Y U no love me?!" SIGINT
+trap "echo Y U no love me?!" SIGINT
 
 while true; do
 	echo "To infinity and beyond"
