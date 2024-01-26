@@ -1,3 +1,7 @@
+#include "stdio.h"
+#include "stdlib.h"
+#include "unistd.h"
+
 /**
  * infinite_while - function that runs forever and return nothing
  * Return: 0
