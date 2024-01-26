@@ -1,5 +1,5 @@
 /**
- * infinite_while - function to sleep
+ * infinite_while - function that runs forever and return nothing
  * Return: 0
  */
 int infinite_while(void)
@@ -25,9 +25,12 @@ int main(void)
 		pid = fork();
 		if (!pid)
 			break;
-		printf("Zombie process created, PID: ZOMBIE_PID", (int)pid);
+		printf("Zombie process created, PID: %i\n", (int)pid);
+		children_processes++;
 	}
 	if (pid != 0)
+	{
 		infinite_white();
+	}
 	return (0);
 }
