@@ -1,1 +1,1 @@
-outer readme
+0x0B. SSHshell permissions
