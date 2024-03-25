@@ -1,4 +1,4 @@
-# Client configuration with ssh
+# Client configuration ssh with puppet
 exec { 'Turn off passwd auth':
   command => 'bash -c "echo PasswordAuthentication no >> /etc/ssh/ssh_config"',
   path    => '/usr/bin:/usr/sbin:/bin'
