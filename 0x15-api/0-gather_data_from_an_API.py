@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Uses API along with an employee ID to return information about 
+Uses API along with an employee ID to return information about
 the employee's todo list progress
 """
 
